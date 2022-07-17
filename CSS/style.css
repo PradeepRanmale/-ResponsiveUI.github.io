@@ -94,12 +94,11 @@ footer p{
 
 
 @media screen and (max-width: 900px) {
-    /* .container{
-        
-    } */
+
     nav{
         justify-content: flex-start;
         padding-left: 4vw;
+        width: 100vw;
     }
     .img{
        width: 24vw;
@@ -134,6 +133,7 @@ footer p{
 }
 @media screen and (max-width: 750px){
     .container{
+        width: 100vw;
         position: relative;
         left: auto;
         right: auto;
