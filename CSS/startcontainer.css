@@ -124,6 +124,7 @@
         justify-content: center;
         padding: auto;
         margin-top: 5px;
+        height: 285vh;
     }
     .blog1{
         width: 300px;
@@ -151,7 +152,7 @@
         width:280px;
     }
     .blog3{
-        margin-top: 100px;
+        margin-top: auto;
         width:300px;
         height: 550px;
     
