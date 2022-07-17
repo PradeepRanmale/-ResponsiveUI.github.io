@@ -1,0 +1,162 @@
+:root{
+    --main-bg-color: #0968ad;
+}
+.startcontainer{
+    display: grid;
+    height: auto;
+    grid-template-columns: auto auto;
+    grid-row-gap:1vw;
+    padding: 2vh 10vh;
+}
+.blog1{
+    height: 60vh;
+    width: 50vw;
+}
+.blog1 h1 span{
+    color: var(--main-bg-color);
+}
+.blog1 img{
+    margin: 5vh 2vw 1vw 1vw;
+    float: left;
+    width: 18vw;
+    height: 25vh;
+}
+.text{
+    margin:4vh 1vw 0 1vw;
+    text-align:justify;
+
+}
+.Read_More{
+    color: var(--main-bg-color);
+    background-color:white;
+    text-decoration: none;
+    width: 8vw;
+    height: 5vh;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2vh;
+    border: none;
+}
+.Comment{
+    color: var(--main-bg-color);
+    background-color:white;
+    text-decoration: none;
+    width: 8vw;
+    height: 5vh;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2vh;
+    border: none;
+}
+.Read_More:hover{
+    background-color:var(--main-bg-color);
+    color: white;
+}
+.Comment:hover{
+    background-color:var(--main-bg-color);
+    color: white;
+}
+
+
+.blog2{
+    height: 60vh;
+    width: 50vw;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top:100px;
+}
+.blog2 h1 span{
+    color: var(--main-bg-color);
+}
+.blog2 img{
+    margin:1vw 1vw 0 1vw;
+    width:48vw;
+}
+.blog2 div{
+    margin:0 1vw 1vw 1vw;
+}
+
+.blog3{
+    height: 122vh;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 25vw;
+    
+}
+.blog3 h1 span{
+    color: var(--main-bg-color);
+}
+.blog3 ul{
+    margin-left: 4vw;
+   line-height: 35px;
+}
+.blog3 ul li{
+    list-style: square inside;
+}
+.blog3 ul li h6{
+    color: grey;
+    line-height: 1;
+    margin-left: 1vw;
+}
+.blog3 ul li :hover{
+    cursor: pointer;
+    color: var(--main-bg-color);
+}
+@media screen and (max-width: 900px){
+
+    .blog1{
+        height: 700px;
+    }
+    .blog2{
+        margin-top: 4vh;
+        height:50vh;
+    }
+    .Read_More{
+        height: 40px;
+    }
+    .Comment{
+        height: 40px;
+    }
+}
+@media screen and (max-width: 750px){
+    .startcontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: auto;
+        margin-top: 5px;
+    }
+    .blog1{
+        width: 300px;
+        height: 700px;;
+
+    }
+    .blog1 img{
+        width: 100px;
+    }
+    .Read_More{
+       width: 70px;
+       margin-top: auto;
+    }
+    .Comment{
+        width: 70px;
+        margin-top: auto;
+       
+
+    }
+    .blog2{
+        width: 300px;
+        margin-top: 100px;
+    }
+    .blog2 img{
+        width:280px;
+    }
+    .blog3{
+        margin-top: 100px;
+        width:300px;
+        height: 550px;
+    
+    }
+}
+
+
+
