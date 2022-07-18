@@ -4,12 +4,14 @@
 .startcontainer{
     display: grid;
     height: auto;
+    margin: auto;
     grid-template-columns: auto auto;
     grid-row-gap:1vw;
     padding: 2vh 10vh;
 }
 .blog1{
-    height: 60vh;
+    height:auto;
+    margin: auto;
     width: 50vw;
 }
 .blog1 h1 span{
@@ -57,8 +59,9 @@
 
 
 .blog2{
-    height: 60vh;
+    height: auto;
     width: 50vw;
+    margin: auto;
     grid-row-start: 2;
     grid-row-end: 3;
     margin-top:100px;
@@ -75,10 +78,11 @@
 }
 
 .blog3{
-    height: 122vh;
+    height: auto;
     grid-row-start: 1;
     grid-row-end: 3;
     width: 25vw;
+    margin: auto;
     
 }
 .blog3 h1 span{
@@ -104,10 +108,16 @@
 
     .blog1{
         height: 700px;
+        margin: auto;
     }
     .blog2{
         margin-top: 4vh;
         height:50vh;
+        margin: auto;
+    }
+    .blog3{
+        margin: auto;
+        height: auto;
     }
     .Read_More{
         height: 40px;
@@ -125,12 +135,14 @@
         align-items: center;
         justify-content: center;
         padding: auto;
-        margin-top: 5px;
-        height: 230vh;
+        margin-top:auto;
+        height: auto;
+
     }
     .blog1{
         width: 300px;
-        height: 700px;;
+        height: 700px;
+        margin: auto;
 
     }
     .blog1 img{
@@ -148,15 +160,17 @@
     }
     .blog2{
         width: 300px;
-        margin-top: 100px;
+        height: auto;
+        margin:50%;
     }
     .blog2 img{
         width:280px;
     }
     .blog3{
-        margin-top: auto;
+        /* margin-top: auto; */
         width:300px;
-        height: 550px;
+        height:auto;
+        margin: auto;
     
     }
 }
